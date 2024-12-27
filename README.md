@@ -1,1 +1,1 @@
-git@github.com:anatklim/ono-tebe-nado-fd.git
+https://github.com/anatklim/ono-tebe-nado-fd
