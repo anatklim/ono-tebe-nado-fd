@@ -1,1 +1,42 @@
-/* место для вашего кода */
+body {}
+
+.header {}
+
+.header_logo {}
+
+.cover {}
+
+.description {}
+
+.lots {
+    padding: 180px 24px 120px;
+
+}
+
+.about {
+    padding: 120px 24px 180px;}
+
+.logo-about {}
+
+.column {}
+
+.footer-address {}
+
+.gap {}
+
+.telephone_header {}
+
+.mail_header {}
+
+.street_header {}
+
+.footer-naw {}
+
+.futer-social {}
+
+.futer-social_youtube{}
+
+.futer-social_vk{}
+
+.futer-social_pinterest{}
+
