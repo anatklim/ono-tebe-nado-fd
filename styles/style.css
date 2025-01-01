@@ -1,20 +1,73 @@
-body {}
+body {
+    background-color: white;
+}
 
-.header {}
+header {
+    display: grid;
+    grid-template-columns: 1fr 136px 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
+    justify-content: space-between;
+    /*align-content: center;*/
+    font-size: 18px;
+}
 
-.header_logo {}
+.menu-header {
+    display: flex;
+    gap: 26px 33px;
+    list-style: circle;
+}
+
+address {
+    max-width: 240px;
+    justify-self: end;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.header_logo {
+
+}
+
+.telephone_header{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    list-style-type: none;
+}
+
+.mail_header {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    list-style-type: none;
+}
+
+.street_header {
+    list-style-type: none;
+}
+
+.menu-header_cover {
+    list-style:none
+}
+
+.menu-header_lots {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.menu-header_about {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
 
 .cover {}
 
 .description {}
 
-.lots {
-    padding: 180px 24px 120px;
+.lots {}
 
-}
+.about {}
 
-.about {
-    padding: 120px 24px 180px;}
+.futer {}
 
 .logo-about {}
 
