@@ -11,16 +11,16 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="menu-header">
-          <li class="menu-header_cover">
-            <a>главная</a>
+      <nav class="header_menu">
+        <ul class="header_links-list">
+          <li class="header__links-list-item_no-bullit">
+            <a class="header__link_active">главная</a>
           </li>
-          <li class="menu-header_lots">
-            <a>посмотреть лоты</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">посмотреть лоты</a>
           </li>
-          <li class="menu-header_about">
-            <a>об аукционе</a>
+          <li class="header__links-list-item_end">
+            <a class="header__link_end" href="#">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -33,7 +33,7 @@
       </a>
       <address>
         <ul>
-          <li class="telephone_header">
+          <li class="tel_header">
             <a href="tel:+9995555555">+9 999 555 5555</a>
           </li>
           <li class="mail_header">
@@ -45,73 +45,57 @@
     </header>
     <main>
       <section class="cover">
-        <img 
-          class="cover-image"
-          src="images/cover.jpg"
-          alt="картина цветов маслом"
-        >
-        <h1>
-          <ul class="cover-content">
-            <li class="cover-content_ono">оНО</li>
-            <li class="cover-content_tebe">ТЕБЕ</li>
-            <li class="cover-content_nado">НАДО</li>
-          </ul>
-        </h1>
-        <div class="description">
-          <p>Аукцион вещей, вкоторые никто не верил</p>
-          <button>Сделать ставку</button>
-        </div>
+        <div class="overlay"></div>
+          <h1 class="cover-title">
+            <span class="aligned-text">оНО</span>
+            <span class="aligned-text_center">ТЕБЕ</span>
+            <span class="aligned-text_right">НАДО</span>
+          </h1>
+          <div class="cover__description">
+            <p class="cover__description-text">Аукцион  
+              <span class="letter-spacing-extended">вещей, в которые никто</span>
+              <span class="letter-spacing-extended_end"> не верил</span></p>
+            <button class="bet-button">Сделать ставку</button>
+          </div>        
       </section>
       <section class="lots">
         <h2 class="lots_heading">Лоты</h2>
-        <ul>
-          <li class="lot-film">
-            <img 
-                class="lot-film_image"
-                src="images/card-lot-01.jpg"
-                alt="в зеркало смотрит парень"
-              >
-            <a>
-              <article>
-                <h3>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a href="">
+              <article class="card_type_film">
+                <div class="overlay"></div>
+                <h3 class="card__title">
                   <a href="">Фильм режиссёра, который бросил киношколу</a>
                 </h3>
-                  <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                  <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
               </article>
             </a>
           </li>
-          <li class="lot-book">
-            <img 
-                class="lot-book_image"
-                src="images/card-lot-02.jpg"
-                alt="обложка книги"
-              >
-            <a>
-              <article>
-                <h3>
-                  <a>Книга, где описан один скучный день из жизни рекламного агента</a>
+          <li class="lots__card-list-item">
+            <a href="">
+              <article class="card_type_book">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  <a href="">Книга, где описан один скучный день из жизни рекламного агента</a>
                 </h3>
-                  <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-                </article>
+                  <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              </article>
             </a>
           </li>
-          <li class="lot-picture">
-            <img 
-              class="lot-picture_image"
-              src="images/card-lot-03.jpg"
-              alt="абстрактная картина"
-            >
-            <a>
-              <article>
-                <h3>
-                  <a>Картина, которую повторит даже 5-летний сын маминой подруги</a>
+          <li class="lots__card-list-item">
+            <a href="" class="card_type_picture">
+              <article class="card_type_picture">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  <a href="">Картина, которую повторит даже 5-летний сын маминой подруги</a>
                 </h3>
-                <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
               </article>
             </a>
           </li>
         </ul>
-        <a>посмотреть больше</a>
+        <a class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="logo-about">
