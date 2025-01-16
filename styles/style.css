@@ -45,7 +45,7 @@ header {
     display: block;
 }
 
-address{
+address {
     display: flex;
     font-style: normal;
     line-height: 24px;
