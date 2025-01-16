@@ -30,13 +30,8 @@ header {
     text-underline-offset: 4px;
 }
 
-.header__link {
+.header__link_center {
     margin-right: 2px;
-}
-
-.header__links-list-item__end {
-    text-decoration: underline;
-    text-underline-offset: 4px;
 }
 
 .header_logo {
@@ -50,28 +45,31 @@ header {
     display: block;
 }
 
-.header__address {
+address{
     display: flex;
-    padding-bottom: 3px;
-    padding-left: 193px;
-    padding-right: 48px;
     font-style: normal;
     line-height: 24px;
 }
 
-.tel_header {
+.header__address {
+    padding-bottom: 3px;
+    padding-left: 193px;
+    padding-right: 48px;
+}
+
+.tel {
     text-decoration: underline;
     text-underline-offset: 4px;
     list-style-type: none;
 }
 
-.mail_header {
+.mail {
     text-decoration: underline;
     text-underline-offset: 4px;
     list-style-type: none;
 }
 
-.street_header {
+.street {
     list-style-type: none;
 }
 
@@ -266,7 +264,7 @@ h1 {
     grid-template-columns: 334px 2fr;
 }
 
-.about__column-left {
+.about__column-logo {
     display: flex;
     justify-content: center;
     min-height: 595px;
@@ -288,27 +286,24 @@ h1 {
     height: 114px;
 }
 
+.about__column-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
 .about__title {
-    margin-top: 137px;
-    margin-bottom: 0px;
+    margin-top: 135px;
+    margin-bottom: 76px;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.about__text-top {
+.about__text {
     font-size: 20px;
-    margin-bottom: 24px;
-    margin-top: 100px;
     line-height: 24px;
     max-width: 688px;
-}
-
-.about__text-bottom {
-    margin-bottom: 0px;
-    font-size: 20px;
-    line-height: 24px;
-    max-width: 693px;
 }
 
 footer {
@@ -340,28 +335,8 @@ footer {
 
 .footer__address {
     justify-self: center;
-    font-style: normal;
-    line-height: 24px;
     padding-left: 52px;
     letter-spacing: 1px;
-}
-
-.footer_telephone {
-    list-style: none;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 4px;
-}
-
-.footer_mail {
-    list-style: none;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 4px;
-}
-
-.footer_street {
-    list-style: none;
 }
 
 .footer__social-list {
